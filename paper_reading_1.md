@@ -1,3 +1,17 @@
+nlp paper reading--ÓÚ2023Äê´º
+
+- [1.Attention Is All You Need(2017)](#1attention-is-all-you-need2017)
+- [2.GloVe: Global Vectors for Word Representation(2014)](#2glove-global-vectors-for-word-representation2014)
+- [3.Enriching Word Vectors with Subword Information(2017)](#3enriching-word-vectors-with-subword-information2017)
+- [4.Neural Machine Translation by Jointly Learning to Align and Translate(2014)](#4neural-machine-translation-by-jointly-learning-to-align-and-translate2014)
+- [5.Improving language understanding by generative pre-training(2018)](#5improving-language-understanding-by-generative-pre-training2018)
+- [6.BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding(2018)](#6bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding2018)
+- [7.BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension](#7bart-denoising-sequence-to-sequence-pre-training-for-natural-language-generation-translation-and-comprehension)
+- [8.Language Models are Few-Shot Learners(2020)](#8language-models-are-few-shot-learners2020)
+- [9.Effective Approaches to Attention-based Neural Machine Translation(2015)](#9effective-approaches-to-attention-based-neural-machine-translation2015)
+- [10.Neural Machine Translation of Rare Words with Subword Units(2016)](#10neural-machine-translation-of-rare-words-with-subword-units2016)
+- [11.Neural Machine Translation: A Review of Methods, Resources, and Tools(2020)](#11neural-machine-translation-a-review-of-methods-resources-and-tools2020)
+
 
 ## 1.Attention Is All You Need(2017)
 
