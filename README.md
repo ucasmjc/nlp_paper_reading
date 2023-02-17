@@ -114,17 +114,17 @@ Glove½áºÏÁËÕâÁ½ÖÖ·½·¨µÄÓÅµã£¬¹æ±ÜÁËÈ±Ïİ£¬ÑµÁ·ÁË°üº¬È«¾ÖÌØÕ÷ÇÒÄÚ²¿¾ßÓĞÏßĞÔ×Ó½á¹¹µ
   one-shot¼´K=1Ê±µÄÇéĞÎ£¬Òò¸ü·ûºÏÈËÔÚÒ»Ğ©ÈÎÎñÉÏµÄÏ°¹ß¶øÌØÒâÌá³ö  
   zero-shot¼´Ö»¸øprompt£¬ÕâÊÇ×îÄÑµÄÒ»ÖÖÇé¿ö
 
-  ## 9.Effective Approaches to Attention-based Neural Machine Translation(2015)
-    [ÂÛÎÄÁ´½Ó](https://arxiv.org/pdf/1508.04025)
+## 9.Effective Approaches to Attention-based Neural Machine Translation(2015)
+[ÂÛÎÄÁ´½Ó](https://arxiv.org/pdf/1508.04025)
 
-  ÎÒÈÏÎªÕâÆªÎÄÕÂµÄĞÂÓ±Ö®´¦ÓĞÏŞ£¬ÒıÓÃÁ¿¸ßµÄÔ­ÒòÊÇµÚÒ»¸ö½«attention»úÖÆºÜºÃµÄÓ¦ÓÃµ½NMTÈÎÎñÖĞ¡£±¾ÎÄÌá³öÁËÒ»¸öÓ¦ÓÃÁËattention»úÖÆµÄNMTÄ£ĞÍ£¬ÊÇ»ùÓÚLSTMµÄencoder-decoder½á¹¹
+ÎÒÈÏÎªÕâÆªÎÄÕÂµÄĞÂÓ±Ö®´¦ÓĞÏŞ£¬ÒıÓÃÁ¿¸ßµÄÔ­ÒòÊÇµÚÒ»¸ö½«attention»úÖÆºÜºÃµÄÓ¦ÓÃµ½NMTÈÎÎñÖĞ¡£±¾ÎÄÌá³öÁËÒ»¸öÓ¦ÓÃÁËattention»úÖÆµÄNMTÄ£ĞÍ£¬ÊÇ»ùÓÚLSTMµÄencoder-decoder½á¹¹
 
-  - Ìá³öÁËÁ½ÖÖcross-attention¡£  
+- Ìá³öÁËÁ½ÖÖcross-attention¡£  
   
     global attentionÊÇ¾­µäµÄÄ£ĞÍ£¬decoderÃ¿¸öÊ±¼ä²½µÄÒş²Ø×´Ì¬¶¼attendËùÓĞsourceµÄÒş²Ø×´Ì¬¡£  
 
     local attentionÏÈÔ¤²âsourceÓëµ±Ç°Ê±¼ä²½µÄ¶ÔÆëp_t£¬ÔÚÒÔ´ËÎªÖĞĞÄµÄÒ»¸öwindowÀï¼ÆËãcontext vector.Ìá³öÁËÁ½ÖÖ¼ÆËã¶ÔÆëp_tµÄ·½·¨£¬local-mÖ±½ÓÁîp_t=t£¬local-pÒıÈë²ÎÊıÀ´Ô¤²âp_t£¬²¢ÒıÈëÁËÒ»¸öÒÔp_tÎªÖĞĞÄµÄ¸ßË¹·Ö²¼È¨ÖØ
-  - ÎªÁËÈÃdecoderµÄÃ¿¸öÊ±¼ä²½»ñµÃÖ®Ç°µÄ¶ÔÆëºÍÒş²Ø×´Ì¬£¬ÒıÈëÁËInput-feeding·½·¨£¬½«Ç°Ò»¸öÊ±¼ä²½µÄattentional vector(½«context vectorºÍÒş²Ø×´Ì¬Á¬½ÓÆğÀ´ºó¾­¹ıÒ»¸öÏßĞÔ²ãºÍ·ÇÏßĞÔ²ã)Ò²×÷Îªµ±Ç°Ê±¼ä²½ÊäÈëµÄÒ»²¿·Ö¡£
+- ÎªÁËÈÃdecoderµÄÃ¿¸öÊ±¼ä²½»ñµÃÖ®Ç°µÄ¶ÔÆëºÍÒş²Ø×´Ì¬£¬ÒıÈëÁËInput-feeding·½·¨£¬½«Ç°Ò»¸öÊ±¼ä²½µÄattentional vector(½«context vectorºÍÒş²Ø×´Ì¬Á¬½ÓÆğÀ´ºó¾­¹ıÒ»¸öÏßĞÔ²ãºÍ·ÇÏßĞÔ²ã)Ò²×÷Îªµ±Ç°Ê±¼ä²½ÊäÈëµÄÒ»²¿·Ö¡£
 
 ## 10.Neural Machine Translation of Rare Words with Subword Units(2016)
 [ÂÛÎÄÁ´½Ó](https://arxiv.org/pdf/1508.07909.pdf)
